@@ -1,0 +1,37 @@
+.container {
+  width: 1000px;
+  height: 100px;
+  display: flex;
+}
+
+.d {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.e {
+    wi
+}
+
+.a {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.a h1 {
+  font-size: 18px;
+  margin: 0;
+}
+.a p {
+  font-size: 12px;
+  margin: 0;
+}
+
+.b h1 {
+  font-size: 20px;
+}
+
+.b img {
+}

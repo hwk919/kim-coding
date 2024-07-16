@@ -1,0 +1,55 @@
+.box {
+  width: 100%;
+  height: 80px;
+  background-color: lightcoral;
+  color: white;
+  font-size: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Logo {
+  font-weight: bold;
+}
+
+.menu {
+  display: flex;
+}
+
+.menu div {
+  margin-right: 10px;
+}
+
+.a {
+  width: 1000;
+  height: 400px;
+  color: white;
+  background-image: url(img/shoes.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.b {
+  height: 40px;
+  border-radius: 5px;
+  border: 0px;
+}
+
+.c {
+  width: 800px;
+  height: 200px;
+  background-color: lightgrey;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  top: 180px;
+}
+
+.d {
+  text-align: center;
+}

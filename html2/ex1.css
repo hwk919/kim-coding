@@ -1,0 +1,19 @@
+.aaaa {
+  text-align: center;
+}
+.spanColor {
+  color: blue;
+}
+
+.box {
+  width: 400px;
+  height: 200px;
+  background-color: rgb(155, 175, 243);
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 5px 5px 0px 0px;
+  margin: 0 auto;
+}

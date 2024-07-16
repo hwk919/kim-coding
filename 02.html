@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      let animals = [
+        "Barracuda",
+        "Bat",
+        "Bear",
+        "Beaver",
+        "Bee",
+        "Bison",
+        "Cat",
+        "Caterpillar",
+        "Cattle",
+        "Chamois",
+        "Cheetah",
+        "Chicken",
+        "Chimpanzee",
+        "Chinchilla",
+        "Chough",
+        "Clam",
+        "Cobra",
+        "Cockroach",
+        "Cod",
+        "Cormorant",
+        "Dugong",
+        "Dunlin",
+        "Eagle",
+        "Echidna",
+        "Eel",
+        "Eland",
+        "Elephant",
+        "Elk",
+        "Emu",
+        "Falcon",
+        "Ferret",
+        "Finch",
+        "Fish",
+        "Flamingo",
+        "Fly",
+        "Fox",
+        "Frog",
+        "Gaur",
+        "Gazelle",
+        "Gerbil",
+        "Giraffe",
+        "Grasshopper",
+        "Heron",
+        "Herring",
+        "Hippopotamus",
+        "Hornet",
+        "Horse",
+        "Kangaroo",
+        "Kingfisher",
+        "Koala",
+        "Kookabura",
+        "Moose",
+        "Narwhal",
+        "Newt",
+        "Nightingale",
+        "Octopus",
+        "Okapi",
+        "Opossum",
+        "Quail",
+        "Quelea",
+        "Quetzal",
+        "Rabbit",
+        "Raccoon",
+        "Rail",
+        "Ram",
+        "Rat",
+        "Raven",
+        "Red deer",
+        "Sandpiper",
+        "Sardine",
+        "Sparrow",
+        "Spider",
+        "Spoonbill",
+        "Squid",
+        "Squirrel",
+        "Starling",
+        "Stingray",
+        "Tiger",
+        "Toad",
+        "Whale",
+        "Wildcat",
+        "Wolf",
+        "Worm",
+        "Wren",
+        "Yak",
+        "Zebra",
+      ];
+
+      console.log(animals.indexOf("Tiger"));
+      animals.pop();
+      console.log(animals);
+
+      animals.push("Dog");
+      console.log(animals);
+
+      animals.push("Mosquito", "mouse", "mule");
+      console.log(animals);
+
+      console.log(animals.includes("Human"));
+
+      console.log(animals.includes("Cat"));
+
+      animals[77] = "Deer";
+      console.log(animals);
+
+      animals.splice(animals.indexOf("Spider"), 3);
+      console.log(animals);
+
+      animals.splice(animals.indexOf("Tiger"), 50);
+      console.log(animals);
+    </script>
+  </body>
+</html>

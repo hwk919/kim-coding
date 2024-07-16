@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>게시물</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f9f9f9;
+        margin: 0;
+        padding: 20px;
+      }
+      .post {
+        background-color: white;
+        border: 1px solid #ddd;
+        border-radius: 10px;
+        padding: 20px;
+        display: flex;
+        align-items: flex-start;
+        gap: 20px;
+        max-width: 600px;
+        margin: auto;
+      }
+      .profile-pic {
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+      }
+      .content {
+        flex: 1;
+      }
+      .content h2 {
+        font-size: 18px;
+        margin: 0;
+      }
+      .content p {
+        color: #666;
+        font-size: 14px;
+        line-height: 1.5;
+      }
+      .post-image {
+        width: 150px;
+        height: 150px;
+        border-radius: 10px;
+        object-fit: cover;
+      }
+      .username {
+        font-weight: bold;
+        margin-bottom: 5px;
+      }
+      .timestamp {
+        color: #999;
+        font-size: 12px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="post">
+      <img
+        src="img/PS17072900100.jpg"
+        alt="Profile Picture"
+        class="profile-pic"
+      />
+      <div class="content">
+        <div class="username">
+          아우리
+          <p class="timestamp">1시간 전</p>
+        </div>
+        <h2>4k빔프로젝터 가성비최강으로 선택했어요</h2>
+        <p>
+          4k빔프로젝터 가성비최강으로 선택했어요 날씨가쌀쌀하니까 요즘 마음이
+          싱숭생숭한게 가을타는 사람이 아닌 봄을 타고있어요... 하루하루 시간이
+          무의미하게 올라가는거같고 재미있는걸 찾지못해 이러저리 헤메는사람처럼
+          즐거운걸 못찾고...
+        </p>
+      </div>
+      <img src="img/shoes.jpg" alt="Post Image" class="post-image" />
+    </div>
+  </body>
+</html>

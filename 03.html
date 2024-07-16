@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      let fruits = [
+        "Apple",
+        "Apricot",
+        "Avocado",
+        "Banana",
+        "Blackberry",
+        "Blueberry",
+        "Cherry",
+        "Coconut",
+        "Cranberry",
+        "Date",
+        "Dragonfruit",
+        "Durian",
+        "Elderberry",
+        "Fig",
+        "Grape",
+        "Guava",
+        "Jackfruit",
+        "Kiwi",
+        "Lemon",
+        "Lime",
+        "Lychee",
+        "Mango",
+        "Melon",
+        "Nectarine",
+        "Orange",
+        "Papaya",
+        "Peach",
+        "Pear",
+        "Pineapple",
+        "Plum",
+        "Pomegranate",
+        "Raspberry",
+        "Strawberry",
+        "Tangerine",
+        "Watermelon",
+      ];
+
+      fruits.pop();
+      console.log(fruits);
+
+      fruits.push("Grapefruit");
+      console.log(fruits);
+
+      fruits.push("Passionfruit", "Persimmon", "Pomelo");
+      console.log(fruits);
+
+      console.log(fruits.includes("Banana"));
+
+      console.log(fruits.includes("Apple"));
+
+      fruits[fruits.indexOf("Pomegranate")] = "Granada";
+      console.log(fruits);
+
+      fruits.splice(fruits.indexOf("Raspberry", 3));
+      console.log(fruits);
+
+      fruits.splice(fruits.indexOf("Strawberry", 10));
+      console.log(fruits);
+    </script>
+  </body>
+</html>

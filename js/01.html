@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      let 과일 = ["포도", "딸기", "복숭아", "수박"];
+      console.log(과일);
+      console.log(과일[0]);
+      console.log(과일.length);
+
+      //수정
+      과일[0] = "가지";
+      console.log(과일);
+
+      //pop()
+      과일.pop();
+      console.log(과일);
+
+      //push()
+      과일.push("자두");
+      console.log(과일);
+
+      //includes()
+      console.log(과일.includes("자도"));
+
+      //indexOf()
+      console.log(과일.indexOf("자두"));
+
+      //slice(시작점, 끝점-끝점은 미포함)
+      console.log(과일.slice(0, 2));
+
+      //splice(시작점, 개수)
+      console.log(과일.splice(0, 4));
+    </script>
+  </body>
+</html>
