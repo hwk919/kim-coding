@@ -1,4 +1,4 @@
-class Product {
+`class Product {
   name = "";
   color = "";
   price = 0;
