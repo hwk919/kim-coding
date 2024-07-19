@@ -87,3 +87,11 @@ while (f < 3){
     console.log('f')
     f++;
 }
+
+//  메소드
+// for(let i=0; i<0; i++){
+//     if(i % 2 ===0){
+//       console.log(i.toString())
+//     }
+// }
+
