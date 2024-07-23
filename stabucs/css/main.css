@@ -1,0 +1,115 @@
+body {
+    color: #333;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.4;
+    font-family: "Nanum Gothic Coding", monospace;
+}
+
+img {
+    display: block;
+}
+
+/* HEADER */
+
+header {
+    background-color: gray;
+}
+
+header .inner {
+    width: 1100px;
+    height: 120px;
+    background-color: orange;
+    margin: 0 auto;
+    position: relative;
+}
+
+header .logo {
+    height: 75px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+header .sub-menu {
+    position: absolute;
+    top: 10px;
+    right: 0px;
+    display: flex;
+}
+
+header .sub-menu ul.menu {
+    display: flex;
+
+}
+
+header .sub-menu ul.menu li {
+    position: relative;
+}
+
+header .sub-menu ul.menu li::before {
+    content: "";
+    display: block;
+    width: 1px;
+    height: 12px;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+header .sub-menu ul.menu li:first-child::before {
+    display: none;
+}
+
+header .sub-menu ul.menu li a {
+    font-size: 12px;
+    padding: 11px 16px;
+    display: block;
+    color: #656566;
+    text-decoration: none;
+}
+
+header .sub-menu ul.menu li a:hover {
+    color: black;
+}
+
+header .sub-menu .search {
+    height: 34px;
+    position: relative;
+}
+
+header .sub-menu .search input {
+    width: 36px;
+    height: 34px;
+    padding: 4px 10px;
+    border: 1px 10px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 5px;
+    outline: none;
+    color: #777;
+    font-size: 12px;
+    transition: width .4s;
+}
+
+header .sub-menu .search input:focus {
+    width: 190px;
+    border: #669900;
+}
+
+header .sub-menu .material-symbols-outlined {
+    height: 24px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 5px;
+    margin: auto;
+}
+
+
+header .sub-menu .search.focused .material-symbols-outlined {
+    opacity: 0;
+}
